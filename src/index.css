@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+p{
+  color:#a09f9f;
+}
+.fill-viewport{
+  height: 90vh;
+  padding:30px 100px 0 100px;
+}
+.big-font{
+  font-size: 1.7em;
+}
+.container{
+  padding:30px 100px 0 100px;
+}
+.link-button{
+  text-decoration: none;
+  padding:10px;
+  background: #41a066;
+  color:white;
+  display: block;
+  width:80px;
+  border-radius: 5%;
+}
+
+.nav-bar {
+  font-family: 'Raleway', sans-serif;
+  display:flex;
+  justify-content:space-between;
+  background:#373735;
+}
+
+.nav-bar a{
+  color:#e5e2e0;
+  padding:20px;
+  text-decoration:none;
+  font-size:1.2em;
+}
+
+.nav-bar a:hover{
+  color:#41a066;
+}
+
+.nav-bar a:nth-child(2){
+  margin-left:auto;
+}
